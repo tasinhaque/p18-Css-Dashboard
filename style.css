@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #fff; */
+}
+body{
+    display: flex;
+    background: url(bg.png);
+    background-size: cover;
+}
+.side-menu{
+    /* border-right: 0.5px solid #fff; */
+    height: 100vh;
+    width: 270px;
+    background: rgba(21, 21, 21, 0.8);
+    backdrop-filter: blur(3px);
+    /* box-shadow: 10px 0 10px #1b1b1b; */
+}
+.side-menu .profilePic{
+    /* background: skyblue; */
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50%;
+    background: url(photo.png) no-repeat;
+    background-size: cover;
+    
+
+}
+.side-menu h3{
+    /* background: orange; */
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+.name h3{
+    /* background: skyblue; */
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+nav ul{
+    padding: 25px 0;
+}
+nav ul li.items{
+    /* background: #ff6347; */
+    padding: 10px 0;
+    cursor: pointer;
+    
+
+}
+nav ul li.active{
+    border-left: 5px solid cyan;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    transition: all 0.2s;
+    font-weight: 300;
+    /* background: orange; */
+    /* width: 200px; */
+}
+nav ul li a:hover{
+    color: cyan;
+}
+
+nav ul li a i{
+    font-size: 22px;
+    padding: 0 5px;
+    width: 50px;
+}
+.container{
+    /* border: 7px solid green; */
+    width: 100%;
+    background: rgba(38, 38, 38, 0.8);
+    backdrop-filter: blur(3px);
+}
+header.titleText{
+    /* border: 9px solid orange; */
+    width: 97%;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+header.titleText h1{
+    font-size: 30px;
+    font-weight: 400;
+    /* background: red; */
+    padding: 20px 0;
+    color: #fff;
+}
+header.titleText h5{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.contentAria{
+    /* border: 7px solid crimson; */
+    width: 97%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.contentAria .main-box{
+    /* border: 2px solid red; */
+    /* width: 400px; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contentAria .main-box2{
+    /* border: 2px solid blue; */
+    /* width: 400px; */
+    display: flex;
+    justify-content: space-between;
+}
+.contentAria .main-box .box{
+    /* background: orange; */
+    /* border: 2px solid #fff; */
+    margin: 15px 15px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+    /* backdrop-filter: blur(5px); */
+    background: rgba(21, 21, 21, 0.5);
+}
+.contentAria .main-box .box i{
+    font-size: 70px;
+    padding: 10px 25px;
+    margin: auto;
+    color: #f1f1f1;
+}
+.contentAria .main-box .box p{
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 15px;
+    text-align: left;
+}
+.contentAria .main-box2 .box{
+    /* background: orange; */
+    /* border: 2px solid #fff; */
+    margin: 25px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: rgba(21, 21, 21, 0.5);
+    /* backdrop-filter: blur(5px); */
+}
+.contentAria .main-box2 .box i{
+    font-size: 60px;
+    padding: 35px 10px;
+    margin: auto;
+    color: #f1f1f1;
+    transition: all 0.1s ease;
+}
+.contentAria .main-box2 .box p{
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 15px;
+}
